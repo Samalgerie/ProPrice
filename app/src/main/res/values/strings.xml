@@ -1,0 +1,132 @@
+<resources>
+    <string name="app_name">ProPrice</string>
+    <string name="app_name_string1">MIXTURE </string>
+    <string name="app_name_string2">PREPARATION</string>
+    <string name="app_name_string3">GUIDE</string>
+    <string name="app_name_string_small"> Mixture preparation guide</string>
+
+
+    //Raw******************************************************
+    <string name="raw">Raw</string>
+    <string name="title_edit_raw">Edit Raw</string>
+    <string name="title_add_raw">Add Raw</string>
+    <string name="title_select_raw_name">SELECT RAW NAME</string>
+    <string name="err_msg_enter_raw_quantity">Enter Raw Quantity, Please!</string>
+    <string name="err_msg_select_raw">Select Raw, Please!</string>
+    <string name="no_raw_added">No Raw has been added yet, click the + button to insert new Raw</string>
+    <string name="add_new_raw_msg">You successfully added your Raw details.</string>
+    <string name="update_raw_msg">You successfully updated your Raw details.</string>
+
+
+    //Receipt******************************************************
+    <string name="receipt">Receipt</string>
+    <string name="err_msg_enter_receipt_name">Enter Receipt name, Please!</string>
+    <string name="no_receipt_added">No Receipt has been added yet, click the + button to insert new Receipt</string>
+    <string name="choose_receipt">Choose a Receipt</string>
+    <string name="title_edit_receipt">Edit Receipt</string>
+    <string name="title_add_receipt">Add Receipt</string>
+    <string name="receipt_name">Receipt Name:  </string>
+    <string name="title_select_receipt_name">Select Receipt Name</string>
+    <string name="err_msg_select_receipt_name">Select Receipt Name, Please!</string>
+    <string name="add_new_receipt_msg">You successfully added your Receipt details.</string>
+    <string name="update_receipt_msg">You successfully updated your Receipt details.</string>
+
+
+    //Product******************************************************
+    <string name="product">Product</string>
+    <string name="title_edit_product">Edit Product</string>
+    <string name="title_add_product">Add Product</string>
+    <string name="title_select_product_name">SELECT PRODUCT NAME</string>
+    <string name="err_msg_enter_pro_name">Enter Product name, Please!</string>
+    <string name="err_msg_enter_pro_price">Enter Product Maximum Price, Please!</string>
+    <string name="err_msg_enter_pro_discount">Enter Discount, it should be between 0–100%, Please!</string>
+    <string name="err_msg_enter_pro_weight">Enter Product Weight, Please!</string>
+    <string name="no_product_added">No Product has been added yet, click the + button to insert new Product</string>
+    <string name="add_new_product_msg">You successfully added your Product details.</string>
+    <string name="update_product_msg">You successfully updated your Product details.</string>
+
+
+    //Extra******************************************************
+    <string name="extra">Extra</string>
+    <string name="title_edit_extra">Edit Extra</string>
+    <string name="title_add_extra">Add Extra</string>
+    <string name="no_extra_added">No Extra has been added yet, click the + button to insert new Extra</string>
+    <string name="add_new_extra_msg">You successfully added your Extra details.</string>
+    <string name="update_extra_msg">You successfully updated your Extra details.</string>
+    <string name="err_msg_select_extra">Select Extra Item, Please!</string>
+    <string name="err_msg_enter_extra_quantity">Enter the Extra item Quantity, Please!</string>
+    <string name="title_select_extra_name">SELECT Extra item</string>
+
+
+    //Calculator******************************************************
+    <string name="calculator">Calculator</string>
+    <string name="profit_ratio">Profit Ratio</string>
+    <string name="profit">Profit</string>
+    <string name="discount">Discount</string>
+    <string name="discount2">Discount:</string>
+    <string name="_0">0%</string>
+    <string name="calculator_note">* No Receipt has been chosen for the specific Product!</string>
+    <string name="composition_with_production_cost">Comp+Pro-Cost</string>
+    <string name="composition">Composition</string>
+    <string name="p_cost">Pro-Cost</string>
+    <string name="production_cost">Production Cost(Dz/Kg)</string>
+
+
+    //Messages******************************************************
+    <string name="title_select_measure_unit">SELECT MEASURE UNIT</string>
+    <string name="err_msg_select_measure_unit">Select Measure Unit Please!</string>
+    <string name="err_msg_enter_name">Enter name, Please!</string>
+    <string name="delete_many_items_msg">items will be deleted!</string>
+    <string name="delete_all_items_msg"> All items will be deleted!</string>
+    <string name="delete_one_item_msg">will be deleted!</string>
+    <string name="items_are_removed">Item(s) are successfully removed!</string>
+
+
+    //Price******************************************************
+    <string name="price_is">4500DZ</string>
+    <string name="total_price">Total Price(Dz)</string>
+    <string name="price">Price(Dz/Unit)</string>
+    <string name="total_cost">Total Cost(Dz/Unit)</string>
+    <string name="price2">Price: </string>
+    <string name="_0_0dz">0</string>
+    <string name="price_kg">Price(Dz/kg)</string>
+    <string name="err_msg_enter_price">Enter price, Please!</string>
+    <string name="dz0">DZ/</string>
+    <string name="dz">DZ</string>
+
+
+    //Weight******************************************************
+    <string name="weight_is">154.9kg</string>
+    <string name="weight">Weight</string>
+    <string name="weight2">Weight:</string>
+    <string name="kg">Kg</string>
+    <string name="total_weight">Weight(Kg)</string>
+    <string name="_0_0kg">0.0Kg</string>
+    <string name="note_about_total_weight">PS. Total weight and Price will only appear when all items have the same unit(Kg)</string>
+
+
+    //General*********************************************************
+    <string name="save">Save</string>
+    <string name="search">search</string>
+    <string name="cancel">Cancel</string>
+    <string name="add">ADD</string>
+    <string name="lbl_update">UPDATE</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="back_image">back Image</string>
+
+    //hints
+    <string name="raw_name_hint"><font size="12">Raw Name</font></string>
+    <string name="receipt_name_hint"><font size="12">Receipt Name</font></string>
+    <string name="extra_name_hint"><font size="12">Extra Name</font></string>
+    <string name="product_name_hint"><font size="12">Choose Product Name</font></string>
+    <string name="unit_hint"><font size="12">Measure Unit</font></string>
+    <string name="pro_name_hint"><font size="12">Product Name</font></string>
+    <string name="price_hint"><font size="12">Price</font></string>
+    <string name="quantity_hint"><font size="12">Quantity</font></string>
+    <string name="weight_hint"><font size="12">Weight(Kg)</font></string>
+    <string name="discount_with_range_hint"><font size="12">Discount(0-100%)</font></string>
+    <string name="production_cost_hint"><font size="12">Production Cost</font></string>
+
+
+</resources>

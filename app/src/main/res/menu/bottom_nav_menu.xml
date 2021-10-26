@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_raw"
+        android:icon="@drawable/ic_icon_raw"
+        android:title="@string/raw" />
+
+    <item
+        android:id="@+id/navigation_receipt"
+        android:icon="@drawable/ic_icon_receipt"
+        android:title="@string/receipt" />
+
+
+    <item
+        android:id="@+id/navigation_calculator"
+        android:icon="@drawable/ic_icon_calculator"
+        android:title="@string/calculator" />
+    <item
+        android:id="@+id/navigation_extra"
+        android:icon="@drawable/ic_icon_extra"
+        android:title="@string/extra" />
+
+    <item
+        android:id="@+id/navigation_product"
+        android:icon="@drawable/ic_icon_product"
+        android:title="@string/product" />
+
+
+</menu>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#2A3952</color>
+    <color name="dark_blue">#194186</color>
+
+    <color name="white">#F4F8FF</color>
+
+    <color name="primaryColor">#3d75d1</color>
+    <color name="primaryLightColor">#77a3ff</color>
+    <color name="primaryDarkColor">#004a9f</color>
+
+    <color name="secondaryColor">#f05b5b</color>
+    <color name="secondaryLightColor">#ff8d88</color>
+    <color name="secondaryDarkColor">#b82531</color>
+
+    <color name="primaryTextColor">#F3FDFD</color>
+    <color name="secondaryTextColor">#08001B</color>
+    <color name="status_bar_start">#44B7D1</color>
+    <color name="status_bar_raw">#F34A4A</color>
+    <color name="status_bar_raw2">#F67474</color>
+    <color name="status_bar_product">#FFC400</color>
+    <color name="status_bar_product2">#F4CE4D</color>
+    <color name="status_bar_calculator">#7D01D5</color>
+    <color name="status_bar_calculator2">#9138D1</color>
+    <color name="status_bar_extra">#1ED8AB</color>
+    <color name="status_bar_extra2">#51DAB9</color>
+    <color name="status_bar_extra3">#9272DCC2</color>
+    <color name="status_bar_receipt">#00B0FF</color>
+    <color name="status_bar_receipt2">#4DC2F6</color>
+    <color name="hints">#5555</color>
+
+    <color name="blue_grey_700">#37474f</color>
+    <color name="grey_900">#212121</color>
+
+    <color name="profit_ratio">#DA3400</color>
+    <color name="discount">#0542DC</color>
+
+
+    <color name="divider_line_color">#e0e0e0</color>
+
+    <color name="blue_grey_900">#263238</color>
+    <color name="grey_500">#9E9E9E</color>
+
+
+</resources>

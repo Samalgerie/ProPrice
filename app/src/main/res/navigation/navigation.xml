@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_calculator">
+
+    <fragment
+        android:id="@+id/navigation_calculator"
+        android:name="dz.samalgeria.proprice.view.fragments.CalculatorFragment"
+        android:label="fragment_calculator"
+        tools:layout="@layout/fragment_calculator">
+
+        <argument
+            android:name="product"
+            android:defaultValue="@null"
+            app:argType="dz.samalgeria.proprice.model.entities.Product"
+            app:nullable="true"></argument>
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/navigation_extra"
+        android:name="dz.samalgeria.proprice.view.fragments.ExtraFragment"
+        android:label="@string/extra"
+        tools:layout="@layout/fragment_extra">
+        <action
+            android:id="@+id/action_navigation_extra_to_add_extra_fragment"
+            app:destination="@id/navigation_add_extra"
+            app:enterAnim="@anim/fade_in"
+            app:exitAnim="@anim/fade_out"
+            app:popEnterAnim="@anim/fade_in"
+            app:popExitAnim="@anim/fade_out" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_receipt"
+        android:name="dz.samalgeria.proprice.view.fragments.ReceiptFragment"
+        android:label="@string/receipt"
+        tools:layout="@layout/fragment_receipt">
+        <action
+            android:id="@+id/action_navigation_receipt_to_navigation_add_receipt"
+            app:destination="@id/navigation_add_receipt"
+            app:enterAnim="@anim/fade_in"
+            app:exitAnim="@anim/fade_out"
+            app:popEnterAnim="@anim/fade_in"
+            app:popExitAnim="@anim/fade_out" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_product"
+        android:name="dz.samalgeria.proprice.view.fragments.ProductFragment"
+        android:label="@string/product"
+        tools:layout="@layout/fragment_product">
+        <action
+            android:id="@+id/action_navigation_product_to_add_product_fragment"
+            app:destination="@id/navigation_add_product"
+            app:enterAnim="@anim/fade_in"
+            app:exitAnim="@anim/fade_out"
+            app:popEnterAnim="@anim/fade_in"
+            app:popExitAnim="@anim/fade_out" />
+        <action
+            android:id="@+id/action_navigation_product_to_navigation_calculator"
+            app:destination="@id/navigation_calculator"
+
+            />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_raw"
+        android:name="dz.samalgeria.proprice.view.fragments.RawFragment"
+        android:label="@string/raw"
+        tools:layout="@layout/fragment_raw">
+        <action
+            android:id="@+id/action_navigation_raw_to_add_raw_fragment"
+            app:destination="@id/navigation_add_raw"
+            app:enterAnim="@anim/fade_in"
+            app:exitAnim="@anim/fade_out"
+            app:popEnterAnim="@anim/fade_in"
+            app:popExitAnim="@anim/fade_out" />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/navigation_add_extra"
+        android:name="dz.samalgeria.proprice.view.fragments.AddUpdateExtraFragment"
+        android:label="fragment_add_extra"
+        tools:layout="@layout/fragment_add_update_extra">
+        <argument
+            android:name="extra"
+            app:argType="dz.samalgeria.proprice.model.entities.Extra"
+            app:nullable="true"></argument>
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_add_receipt"
+        android:name="dz.samalgeria.proprice.view.fragments.AddUpdateReceiptFragment"
+        android:label="fragment_add_receipt"
+        tools:layout="@layout/fragment_add_update_receipt">
+        <argument
+            android:name="receipt"
+            app:argType="dz.samalgeria.proprice.model.entities.Receipt"
+            app:nullable="true" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_add_product"
+        android:name="dz.samalgeria.proprice.view.fragments.AddUpdateProductFragment"
+        android:label="fragment_add_product"
+        tools:layout="@layout/fragment_add_update_product">
+        <argument
+            android:name="product"
+            app:argType="dz.samalgeria.proprice.model.entities.Product"
+            app:nullable="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_add_raw"
+        android:name="dz.samalgeria.proprice.view.fragments.AddUpdateRawFragment"
+        android:label="fragment_add_raw"
+        tools:layout="@layout/fragment_add_update_raw">
+        <argument
+            android:name="raw"
+            app:argType="dz.samalgeria.proprice.model.entities.Raw"
+            app:nullable="true" />
+
+    </fragment>
+
+
+</navigation>

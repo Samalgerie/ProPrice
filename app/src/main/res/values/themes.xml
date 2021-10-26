@@ -1,0 +1,59 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.ProPrice" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="windowActionBar">false</item>
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryVariant">@color/primaryDarkColor</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/secondaryColor</item>
+        <item name="colorSecondaryVariant">@color/secondaryDarkColor</item>
+        <item name="colorOnSecondary">@color/ic_launcher_background</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <item name="textColor">@color/white</item>
+        <item name="searchViewStyle">@style/MySearchViewStyle</item>
+        <item name="autoCompleteTextViewStyle">@style/cursorColor</item>
+
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Theme.ProPrice.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="cursorColor" parent="Widget.AppCompat.AutoCompleteTextView">
+        <item name="android:textCursorDrawable">@drawable/cursor</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:hint">@string/search</item>
+    </style>
+
+    <style name="MySearchViewStyle" parent="Widget.AppCompat.SearchView">
+        <!--        <item name="searchHintIcon">@null</item>-->
+        <item name="goIcon">@null</item>
+        <item name="android:background">@drawable/search_bar</item>
+
+        <!-- Background for the search query section (e.g. EditText) -->
+        <item name="queryBackground">@android:color/transparent</item>
+
+        <!-- Background for the actions section (e.g. voice, submit) -->
+        <item name="submitBackground">@android:color/transparent</item>
+
+        <!-- Close button icon -->
+        <!--        <item name="closeIcon">@drawable/ic_close</item>-->
+        <!-- Search button icon -->
+        <item name="searchIcon">@drawable/ic_search</item>
+        <!-- Go/commit button icon -->
+        <!--        <item name="goIcon">@drawable/ic_full_arrow_right</item>-->
+        <!-- Voice search button icon -->
+        <!-- <item name="voiceIcon">...</item>-->
+        <!-- Commit icon shown in the query suggestion row -->
+        <!--<item name="commitIcon">...</item>-->
+        <!-- Layout for query suggestion rows -->
+        <!--<item name="suggestionRowLayout">...</item>-->
+        <item name="android:textCursorDrawable">@color/white</item>
+    </style>
+
+</resources>
